@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'alapok';
+
+  kivalasztottSzin = "pink";
+
+  szinValasztasTortent(ujSzin: string){
+    this.kivalasztottSzin = ujSzin;
+  }
+
+
 }
